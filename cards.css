@@ -1,0 +1,141 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.containercustom{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.cards{
+    /* visibility: hidden; */
+    color: white;
+    display: flex;
+    
+   
+}
+
+.cards h1{
+    margin-top: 360px;
+    margin-left: 220px;
+}
+.cards h3{
+    margin-top: 5px;
+    margin-left: -270px;
+}
+.cards h4{
+    margin-left: 130px;
+    margin-top: 5px;
+}
+
+
+.red{
+    background-color: red;
+    width: 80px;
+    height: 250px;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 70px;
+    transform: skewY(-40deg);
+    
+}
+
+.red img{
+    width: 20px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.white{
+    background-color: white;
+    width: 5px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: -280px;
+    transform: skewY(-40deg);
+}
+.cardsarxa{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: brown;
+    transform: rotateX(180deg);
+}
+
+
+.left{
+    display: flex;
+    
+    font-size: 8px;
+    width: 900px;
+    transform: rotateZ(-90deg);
+    margin-left: -320px;
+    color: rgb(240, 239, 239);
+    margin-left: -440px;
+    margin-top: -470px;
+}
+.left p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.left h4{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sutun1 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+
+}
+.sutun{
+    margin-top: -80px;
+}
+
+ .sutun1 h5{
+    font-size: 9px;
+    margin-left: 65px;
+    margin-top: 0px;
+    color: white;
+}
+.sutun2{  
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.sutun3{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.sutun4{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.sutun5{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.date h4{
+    margin-left: 120px;
+    margin-top: 5px;
+}
+.date h3{
+    margin-left: 110px;
+    margin-top: -20px;
+}
+
+.containercustom:hover{
+    transform: rotateX(180deg);
+}
+.containercustom:hover .cardsarxa{
+    visibility: visible;
+}
+.containercustom:hover .cards{
+    visibility: hidden;
+}
